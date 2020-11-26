@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvShowNotification"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:background="#C1CDCD"
+        android:gravity="center"
+        android:text="开启通知栏"
+        android:textColor="#242424"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvCloseNotification"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:background="#C1CDCD"
+        android:gravity="center"
+        android:text="关闭通知栏"
+        android:textColor="#242424"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvOther"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:background="#C1CDCD"
+        android:gravity="center"
+        android:text="开启其他通知栏"
+        android:textColor="#242424"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/shape_common_resident_label"
+        android:minHeight="100dp"
+        android:padding="15dp"
+        android:text="关闭通知栏"
+        android:textColor="#919191"
+        android:textSize="14sp" />
+
+
+</LinearLayout>
