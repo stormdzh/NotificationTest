@@ -2,6 +2,7 @@ package com.stormdzh.notificationtest;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
@@ -43,6 +44,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 otherNotification();
+            }
+        });
+        findViewById(R.id.tvBadge).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this,BadgeMumActivity.class));
             }
         });
 

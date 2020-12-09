@@ -60,5 +60,18 @@
         android:textColor="#919191"
         android:textSize="14sp" />
 
+    <TextView
+        android:id="@+id/tvBadge"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:background="#C1CDCD"
+        android:gravity="center"
+        android:text="桌面数字角标"
+        android:textColor="#242424"
+        android:textSize="14sp" />
+
 
 </LinearLayout>

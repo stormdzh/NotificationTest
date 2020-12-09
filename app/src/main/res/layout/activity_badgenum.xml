@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tvBadgeStart"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:background="#C1CDCD"
+        android:gravity="center"
+        android:text="开始桌面数字角标"
+        android:textColor="#242424"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvBadgeStop"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:background="#C1CDCD"
+        android:gravity="center"
+        android:text="结束桌面数字角标"
+        android:textColor="#242424"
+        android:textSize="14sp" />
+
+
+
+</LinearLayout>
